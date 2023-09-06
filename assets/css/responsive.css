@@ -1,0 +1,373 @@
+@media (max-width:1200px) {
+    .main-head {
+        font-size: 54px;
+    }
+
+    .main-para {
+        font-size: 14px;
+    }
+
+    .card-head {
+        font-size: 16px;
+    }
+
+    .card-time {
+        font-size: 14px;
+    }
+
+    .card-NFT {
+        font-size: 14px;
+    }
+
+    .blur-area {
+        width: 118%;
+    }
+
+    .blur-area1 {
+        width: 118%;
+    }
+}
+
+@media (max-width:992px) {
+
+    label[for="MenuIcon"] {
+        height: 20px;
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+        z-index: 3;
+    }
+
+    label[for="MenuIcon"]>span {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    ul.mobile-view {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        left: -100%;
+        top: 0%;
+        position: fixed;
+        transition: all 400ms linear;
+        z-index: 2 !important;
+        gap: 20px;
+    }
+
+    .button-wrap{
+        top: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        left: -100%;
+        position: fixed;
+        transition: all 400ms linear;
+        z-index: 2 !important;
+        gap: 20px;
+    }
+
+    input[type="checkbox"]:checked+ul{
+        left: 0;
+        background:hsl(0,0, 100% / 0.1);
+        backdrop-filter: blur(1rem);
+    }
+
+    input[type="checkbox"]:checked~.button-wrap {
+        left: 18%;
+        bottom: -40%;
+    }
+
+    .col-lg12 {
+        width: 100%;
+    }
+
+    .jc-lg-center {
+        justify-content: center !important;
+    }
+
+    .main-head {
+        font-size: 64px;
+        width: 600px;
+    }
+
+    .main-para {
+        width: 600px;
+    }
+
+    .pt-110 {
+        padding-top: 70px;
+    }
+
+    .pt-lg-30 {
+        padding-top: 30px;
+    }
+
+    .col-lg6 {
+        width: 40%;
+    }
+
+    .mt-lg-24 {
+        margin-top: 24px;
+    }
+
+    .py-48 {
+        padding-top: 0;
+    }
+
+    .card-head {
+        font-size: 20px;
+    }
+
+    .card-time {
+        font-size: 16px;
+    }
+
+    .card-NFT {
+        font-size: 16px;
+    }
+
+    .circle {
+        top: 57%;
+        left: 48%;
+    }
+
+    .ml-lg-24 {
+        margin-left: 20px;
+    }
+
+    .blur-area{
+        width: 114%;
+        left: -12px;
+        height: 40px;
+        bottom: 9px;
+    }
+
+    .blur-area1{
+        width: 114%;
+        left: -12px;
+        height: 40px;
+        bottom: -15px;
+    }
+
+    .mt-3{
+        margin-top: 10px !important;
+    }
+
+    .hover-text{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    .card-head {
+        font-size: 14px;
+    }
+
+    .card-time {
+        font-size: 12px;
+    }
+
+    .card-NFT {
+        font-size: 13px;
+    }
+
+    .main-head{
+        font-size: 60px;
+    }
+
+    .S2-card-para{
+        font-size: 14px;
+    }
+
+    .S2-card-head{
+        font-size: 18px;
+    }
+
+    .col-md6{
+        width: 50%;
+    }
+
+    .mt-md-24{
+        margin-top: 24px;
+    }
+
+    .pt-md-150{
+        padding-top: 150px;
+    }
+
+    .py-48{
+        padding-top: 48px;
+    }
+
+    .pt-77{
+        padding-top: 48px;
+    }
+    
+    .col-md6{
+        width: 50%;
+    }
+
+    .col-md12{
+        width: 100%;
+    }
+
+    .jc-md-center{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mt-md-24{
+        margin-top: 24px;
+    }
+
+    .blur-area{
+        width: 119%;
+        left: -9.4%;
+        height: 40px;
+        bottom: 0px;
+    }
+
+    .blur-area1{
+        width: 119%;
+        left: -9.4%;
+        height: 40px;
+        bottom: -24px;
+    }
+
+    .mt-3{
+        margin-top: 10px !important;
+    }
+
+    .hover-text{
+        font-size: 18px;
+    }
+
+    input[type="checkbox"]:checked~.button-wrap {
+        left: 16%;
+        bottom: -45%;
+    }
+}
+
+@media (max-width:576px) {
+    .main-head{
+        font-size: 48px;
+        width: 480px;
+    }
+
+    .main-para{
+        font-size: 12px;
+        width: 480px;
+    }
+
+    .pb-sm-100{
+        padding-bottom: 70px;
+    }
+
+    .pt-sm-0{
+        padding-top: 0;
+    }
+
+    .col-sm12{
+        width: 65%;
+    }
+
+    .mt-sm-24{
+        margin-top: 24px;
+    }
+
+    .S1-head{
+        font-size: 42px;
+    }
+
+    .card-head{
+        font-size: 18px;
+    }
+
+    .card-time{
+        font-size: 15px;
+    }
+
+    .card-NFT{
+        font-size: 16px;
+    }
+
+    .S2-head{
+        font-size: 42px;
+    }
+
+    .S3-head{
+        font-size: 42px;
+    }
+
+    .col-sm12{
+        width: 65%;
+    }
+
+    .circle {
+        left: 82%;
+        top: 53.5%;
+    }
+
+    .S2-card-para {
+        font-size: 13px;
+    }
+
+    .ml-lg-24 {
+        margin-left: 0px;
+    }
+
+    .mt-sm-24{
+        margin-top: 24px;
+    }
+
+    .image-blur:hover{
+        transform: scale(1.1);
+    }
+
+    .blur-area{
+        width: 100%;
+        left: 0%;
+        height: 35px;
+        bottom: 16px;
+    }
+
+    .blur-area1{
+        width: 100%;
+        left: 0%;
+        height: 35px;
+        bottom: -8px;
+    }
+
+    .mt-3{
+        margin-top: 10px !important;
+    }
+
+    .hover-text{
+        font-size: 16px;
+    }
+
+    input[type="checkbox"]:checked~.button-wrap {
+        left: 13%;
+        bottom: -45%;
+    }
+}
+
+@media (min-width:1400px) {
+    .container{
+        max-width: 1440px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
