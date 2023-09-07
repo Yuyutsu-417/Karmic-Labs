@@ -136,11 +136,6 @@
         font-size: 16px;
     }
 
-    .circle {
-        top: 57%;
-        left: 48%;
-    }
-
     .ml-lg-24 {
         margin-left: 20px;
     }
@@ -311,11 +306,6 @@
 
     .col-sm12{
         width: 65%;
-    }
-
-    .circle {
-        left: 82%;
-        top: 53.5%;
     }
 
     .S2-card-para {
