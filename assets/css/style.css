@@ -15,7 +15,7 @@
 .hero-bg {
     background-image: url("../images/hero-img.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     transform: rotate(180deg);
 }
 
@@ -33,6 +33,10 @@
 
 .pt-21 {
     padding-top: 21px;
+}
+
+.mt-10 {
+    margin-top: 10px;
 }
 
 .ml-button {
@@ -134,6 +138,10 @@
     gap: -8px;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 .pt-77 {
     padding-top: 77px;
 }
@@ -150,6 +158,20 @@
 
 .pt-102 {
     padding-top: 102px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.S1-py-48 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.S2-py {
+    padding-top: 70px;
+    padding-bottom: 48px;
 }
 
 .l-text {
@@ -179,7 +201,7 @@
 
 .btn {
     padding: 12px 32px;
-    background-color: transparent;
+    background-color: black;
     color: white;
     border-radius: 82px;
     font-family: 'Sunflower', sans-serif;
@@ -330,15 +352,21 @@
 
 .moon {
     position: absolute;
-    left: 75%;
-    bottom: 75%;
+    left: 76%;
+    bottom: 77%;
     opacity: 0;
     transition: all 200ms linear;
     z-index: 2 !important;
 }
 
 .S2-card {
-    padding: 20px 20px 40px 20px ;
+    padding: 20px 20px 40px 20px;
+    transition: all 200ms ease-in;
+    z-index: 3 !important;
+}
+
+.S2-card-1 {
+    padding: 20px 20px 60px 20px;
     transition: all 200ms ease-in;
     z-index: 3 !important;
 }
@@ -370,8 +398,19 @@
     backdrop-filter: blur(8px);
 }
 
-.S2-card:hover + .moon {
-   opacity: 1;
+.S2-card-1:hover {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+}
+
+.S2-card:hover+.moon {
+    opacity: 1;
+}
+
+.S2-card-1:hover+.moon {
+    opacity: 1;
 }
 
 .l-line {
@@ -707,4 +746,12 @@
     background-color: #fff;
     filter: blur(124px);
     right: -4%;
+}
+
+.f-image{
+    transition: all 300ms linear;
+}
+
+.f-image:hover {
+    box-shadow: 0px 4px 15px 0px rgba(255, 255, 255, 0.10);
 }

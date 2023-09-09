@@ -55,44 +55,44 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        left: -100%;
+        right: -100%;
         top: 0%;
         position: fixed;
-        transition: all 400ms linear;
+        transition: all 100ms linear;
         z-index: 2 !important;
         gap: 20px;
     }
 
-    .button-wrap{
+    .button-wrap {
         top: 0%;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        left: -100%;
+        right: -100%;
         position: fixed;
-        transition: all 400ms linear;
+        transition: all 100ms linear;
         z-index: 2 !important;
         gap: 20px;
     }
 
-    input[type="checkbox"]:checked+ul{
-        left: 0;
-        background:hsl(0,0, 100% / 0.1);
+    input[type="checkbox"]:checked+ul {
+        right: 0;
+        background: hsl(0, 0, 100% / 0.1);
         backdrop-filter: blur(1rem);
     }
 
     input[type="checkbox"]:checked~.button-wrap {
-        left: 18%;
-        bottom: -40%;
+        right: 12%;
+        bottom: -20%;
     }
 
     .col-lg12 {
         width: 100%;
     }
 
-    .jc-lg-center {
-        justify-content: center !important;
+    .jc-lg-start {
+        justify-content: start !important;
     }
 
     .main-head {
@@ -113,7 +113,7 @@
     }
 
     .col-lg6 {
-        width: 40%;
+        width: 50%;
     }
 
     .mt-lg-24 {
@@ -136,34 +136,39 @@
         font-size: 16px;
     }
 
-    .ml-lg-24 {
+    /* .ml-lg-24 {
         margin-left: 20px;
-    }
+    } */
 
-    .blur-area{
+    .blur-area {
         width: 114%;
         left: -12px;
         height: 40px;
         bottom: 9px;
     }
 
-    .blur-area1{
+    .blur-area1 {
         width: 114%;
         left: -12px;
         height: 40px;
         bottom: -15px;
     }
 
-    .mt-3{
+    .mt-3 {
         margin-top: 10px !important;
     }
 
-    .hover-text{
+    .hover-text {
         font-size: 18px;
     }
 }
 
 @media (max-width:768px) {
+    input[type="checkbox"]:checked~.button-wrap {
+        right: -38%;
+        top: -23%;
+    }
+
     .card-head {
         font-size: 14px;
     }
@@ -176,74 +181,78 @@
         font-size: 13px;
     }
 
-    .main-head{
+    .main-head {
         font-size: 60px;
     }
 
-    .S2-card-para{
+    .S2-card-para {
         font-size: 14px;
     }
 
-    .S2-card-head{
+    .S2-card-head {
         font-size: 18px;
     }
 
-    .col-md6{
+    .col-md6 {
         width: 50%;
     }
 
-    .mt-md-24{
+    .mt-md-24 {
         margin-top: 24px;
     }
 
-    .pt-md-150{
+    .pt-md-150 {
         padding-top: 150px;
     }
 
-    .py-48{
+    .py-48 {
         padding-top: 48px;
     }
 
-    .pt-77{
+    .pt-77 {
         padding-top: 48px;
     }
-    
-    .col-md6{
+
+    .pb-80 {
+        padding-bottom: 50px;
+    }
+
+    .col-md6 {
         width: 50%;
     }
 
-    .col-md12{
+    .col-md12 {
         width: 100%;
     }
 
-    .jc-md-center{
+    .jc-md-center {
         margin-left: auto;
         margin-right: auto;
     }
 
-    .mt-md-24{
+    .mt-md-24 {
         margin-top: 24px;
     }
 
-    .blur-area{
+    .blur-area {
         width: 119%;
         left: -9.4%;
         height: 40px;
         bottom: 0px;
     }
 
-    .blur-area1{
+    .blur-area1 {
         width: 119%;
         left: -9.4%;
         height: 40px;
         bottom: -24px;
     }
 
-    .mt-3{
+    .mt-3 {
         margin-top: 10px !important;
     }
 
-    .hover-text{
+    .hover-text {
         font-size: 18px;
     }
 
@@ -254,58 +263,58 @@
 }
 
 @media (max-width:576px) {
-    .main-head{
+    .main-head {
         font-size: 48px;
         width: 480px;
     }
 
-    .main-para{
+    .main-para {
         font-size: 12px;
         width: 480px;
     }
 
-    .pb-sm-100{
+    .pb-sm-100 {
         padding-bottom: 70px;
     }
 
-    .pt-sm-0{
+    .pt-sm-0 {
         padding-top: 0;
     }
 
-    .col-sm12{
+    .col-sm12 {
         width: 65%;
     }
 
-    .mt-sm-24{
+    .mt-sm-24 {
         margin-top: 24px;
     }
 
-    .S1-head{
+    .S1-head {
         font-size: 42px;
     }
 
-    .card-head{
+    .card-head {
         font-size: 18px;
     }
 
-    .card-time{
+    .card-time {
         font-size: 15px;
     }
 
-    .card-NFT{
+    .card-NFT {
         font-size: 16px;
     }
 
-    .S2-head{
+    .S2-head {
         font-size: 42px;
     }
 
-    .S3-head{
+    .S3-head {
         font-size: 42px;
     }
 
-    .col-sm12{
-        width: 65%;
+    .col-sm12 {
+        width: 100%;
     }
 
     .S2-card-para {
@@ -316,48 +325,127 @@
         margin-left: 0px;
     }
 
-    .mt-sm-24{
+    .mt-sm-24 {
         margin-top: 24px;
     }
 
-    .image-blur:hover{
+    .image-blur:hover {
         transform: scale(1.1);
     }
 
-    .blur-area{
+
+    .blur-area {
         width: 100%;
         left: 0%;
-        height: 35px;
-        bottom: 16px;
+        height: 50px;
+        bottom: 7px;
     }
 
-    .blur-area1{
+    .blur-area1 {
         width: 100%;
         left: 0%;
-        height: 35px;
-        bottom: -8px;
+        height: 50px;
+        bottom: -17px;
     }
 
-    .mt-3{
-        margin-top: 10px !important;
+    .mt-10 {
+        margin-top: 14px;
     }
 
-    .hover-text{
-        font-size: 16px;
+    .blur-text {
+        font-size: 24px;
+    }
+
+    .hover-text {
+        font-size: 14px;
     }
 
     input[type="checkbox"]:checked~.button-wrap {
-        left: 13%;
+        right: -38%;
         bottom: -45%;
+    }
+
+    .card-head {
+        font-size: 26px;
+    }
+
+    .card-time {
+        font-size: 22px;
+    }
+    .card-NFT {
+        font-size: 24px;
+    }
+
+    .white-bg {
+        background-image: none;
+        background-color: #fff;
+    }
+
+    .pb-100 {
+        padding-bottom: 48px;
+    }
+
+    .pt-md-150 {
+        padding-top: 72px;
+    }
+
+    .mb-sm-40 {
+        margin-bottom: 40px;
+    }
+
+    .mb-sm-24 {
+        margin-bottom: 24px;
+    }
+
+    .width-sm-100{
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .main-head{
+        font-size: 38px;
+    }
+
+    .main-para{
+        font-size: 10px;
+    }
+
+    .S1-head{
+        font-size: 36px;
+    }
+
+    .S2-head{
+        font-size: 40px;
+    }
+
+    .S3-head{
+        font-size: 40px;
+    }
+
+    .S4-main-head{
+        font-size: 40px;
     }
 }
 
 @media (min-width:1400px) {
-    .container{
+    .container {
         max-width: 1440px !important;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 12px;
-        padding-right: 12px;
+    }
+
+    .jc-xxl-center {
+        justify-content: center !important;
+    }
+
+    .blur-area {
+        width: 121%;
+        left: -10.4%;
+        bottom: -2%;
+    }
+
+    .blur-area1 {
+        width: 121%;
+        left: -10.4%;
+        bottom: -15%;
     }
 }
